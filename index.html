@@ -2,13 +2,46 @@
 <html>
 <head>
     <title>Document Classification</title>
+    <!-- Menambahkan tautan ke Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Menambahkan tautan ke Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <!-- Menambahkan tautan ke font Poppins -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <!-- Menambahkan gaya khusus untuk halaman -->
+    <style>
+        body {
+            background-color: #f8f9fa; /* Warna latar belakang */
+            font-family: 'Poppins', sans-serif; /* Menggunakan font Poppins untuk body */
+        }
+        .container {
+            background-color: #ffffff; /* Warna latar belakang container */
+            padding: 20px;
+            border-radius: 10px; /* Border radius untuk container */
+            box-shadow: 0 0 10px rgba(0,0,0,0.2); /* Efek bayangan */
+            margin-top: 50px;
+        }
+        h1 {
+            color: black; /* Warna teks judul */
+        }
+        .list-group-item {
+            background-color: #f8f9fa; /* Warna latar belakang item daftar */
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to Document Classification</h1>
-    <p>Use the following links to navigate:</p>
-    <ul>
-        <li><a href="training.php">Input Training Data</a></li>
-        <li><a href="testing.php">Classify Document</a></li>
-    </ul>
+    <div class="container mt-5">
+        <h1>Selamat Datang di Program Klasifikasi Dokumen</h1>
+        <p>Pilih Menu Berikut: </p>
+        <ul class="list-group">
+            <li class="list-group-item"><i class="fas fa-file-import"></i> <a href="training.php">Input Training Data</a></li>
+            <li class="list-group-item"><i class="fas fa-file-alt"></i> <a href="testing.php">Classify Document</a></li>
+        </ul>
+    </div>
+    
+    <!-- Menambahkan tautan ke Bootstrap JavaScript dan jQuery (diperlukan oleh Bootstrap) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
