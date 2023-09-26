@@ -15,6 +15,10 @@
             background-position: center;
             color: #fff; /* Warna teks */
 
+            background-color: #333; /* Warna latar belakang gelap */
+            font-family: 'Poppins', sans-serif; /* Menggunakan font Poppins untuk body */
+            color: #fff; /* Warna teks putih */
+
         }
         .container {
             background-color: rgba(0, 0, 0, 0.7); /* Latar belakang semi-transparan untuk container */
